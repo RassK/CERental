@@ -20,25 +20,27 @@ Dynamic web project with a separate backend server.
 - Bootstrap
 - Angular JS
 
-# Running project
+# Running the project
 
-### 1. Restore nuget packages
-1. Open nuget package manager. Click restore on restore popup
+### 1. Restoring nuget packages
+1. Open nuget package manager. Click restore on popup
 
-### 2. Build & Seed database
-1. Set CERental.Web.Public as startup project
-2. Open package manager console
-3. Select CERental.Data as default project (dropdown!)
+### 2. Building & Seeding a database
+The solution is using Visual Studio's built in database engine. If you do not have it somehow or wish to use external database engine, then you must change the connection string. There are 2 connectionstring located in CERental.Web.Public (web.config) and CERental.Server (app.config).
+
+1. Set CERental.Web.Public as a startup project
+2. Open the package manager console
+3. Select CERental.Data as a default project (dropdown!)
 4. Insert command "Update-Database"
 
 ### 3. Run Application
 1. Open solution properties
-2. Select multiple startup projects
-3 If not already configured select CERental.Server and CERental.Web.Public as startup projects
-4. Run 
+2. Select option "multiple startup projects"
+3. If it's not already configured, select CERental.Server and CERental.Web.Public as startup projects
+4. Run the application from Visual studio
 
 # Using the project
 
 1. Register account
-2. Login with provided details
+2. Log in with provided details
 3. Start using
