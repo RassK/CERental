@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CERental.Web.Public", "CERental.Web.Public\CERental.Web.Public.csproj", "{2F9D2DCB-026D-4D6F-9217-895036E642FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CERental.Core", "CERental.Core\CERental.Core.csproj", "{27F305BC-DFC8-4DBA-A0F7-D26A9F3C99AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CERental.Data", "CERental.Data\CERental.Data.csproj", "{69793DBA-4D1A-4E5F-98B9-4090FF8EA772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CERental.ApplicationServices", "CERental.ApplicationServices\CERental.ApplicationServices.csproj", "{6BB6CEA3-94DD-4A33-9E6F-E49D1B5F6D8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CERental.Server", "CERental.Server\CERental.Server.csproj", "{C1864C79-910E-4AAF-BA24-19A748601040}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F9D2DCB-026D-4D6F-9217-895036E642FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F9D2DCB-026D-4D6F-9217-895036E642FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F9D2DCB-026D-4D6F-9217-895036E642FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F9D2DCB-026D-4D6F-9217-895036E642FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F305BC-DFC8-4DBA-A0F7-D26A9F3C99AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F305BC-DFC8-4DBA-A0F7-D26A9F3C99AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F305BC-DFC8-4DBA-A0F7-D26A9F3C99AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F305BC-DFC8-4DBA-A0F7-D26A9F3C99AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69793DBA-4D1A-4E5F-98B9-4090FF8EA772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69793DBA-4D1A-4E5F-98B9-4090FF8EA772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69793DBA-4D1A-4E5F-98B9-4090FF8EA772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69793DBA-4D1A-4E5F-98B9-4090FF8EA772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB6CEA3-94DD-4A33-9E6F-E49D1B5F6D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB6CEA3-94DD-4A33-9E6F-E49D1B5F6D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB6CEA3-94DD-4A33-9E6F-E49D1B5F6D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB6CEA3-94DD-4A33-9E6F-E49D1B5F6D8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1864C79-910E-4AAF-BA24-19A748601040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1864C79-910E-4AAF-BA24-19A748601040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1864C79-910E-4AAF-BA24-19A748601040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1864C79-910E-4AAF-BA24-19A748601040}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

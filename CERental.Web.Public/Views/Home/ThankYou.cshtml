@@ -1,0 +1,19 @@
+﻿@model CERental.Core.Models.RentalResult
+
+@{
+    ViewBag.Title = "ThankYou";
+}
+
+<h2>Thank You</h2>
+<p>Your order is registered</p>
+
+<div class="order">
+    <p>
+        Total: @Model.TotalPrice.ToString("N") €<br />
+        Points: @Model.PointsEarned
+    </p>
+</div>
+
+<p>
+    @Html.ActionLink("Download invoice", MVC.Home.Download())
+</p>

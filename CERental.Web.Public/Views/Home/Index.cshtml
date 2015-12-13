@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>CERental Equipments</h1>
+</div>
+
+<div class="row" ng-controller="RentalController">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Equipment</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="equipment in model.equipments">
+                <td>{{equipment.Name}}</td>
+                <td>{{mapType(equipment.Type)}}</td>
+                <td><button class="btn btn-default" ng-click="rent(equipment)">Rent</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="chart" ng-if="model.showCart">
+        <h2>My cart</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Equipment</th>
+                    <th>Type</th>
+                    <th>Duration (Days)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="equipment in model.cart">
+                    <td>{{equipment.Name}}</td>
+                    <td>{{mapType(equipment.Type)}}</td>
+                    <td><input type="number" ng-model="equipment.Days" /></td>
+                    <td><button class="btn btn-default" ng-click="remove(equipment)">Remove</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button class="btn btn-primary" ng-click="order()">Order</button>
+    </div>
+</div>
