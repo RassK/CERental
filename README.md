@@ -1,6 +1,25 @@
 # CERental
 Construction Equipment Rental Project
 
+## Project Details ##
+Dynamic web project with a separate backend server.
+
+## Technology pool ##
+
+- Microsoft Visual C# 6.0
+- Microsoft .NET 4.5.2
+- Microsoft ASP.NET MVC 5
+- Console application
+
+## Back-end ##
+- Owin Security
+- Entity Framework 6
+- Castle Windsor
+
+## Front-end ##
+- Bootstrap
+- Angular JS
+
 # Running project
 
 ## 1. Restore nuget packages ##
